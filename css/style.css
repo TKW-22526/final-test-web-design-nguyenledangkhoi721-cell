@@ -1,0 +1,81 @@
+/* ==========================================
+   PHẦN STYLE HEADER NÂNG CẤP (GIỐNG MẪU)
+   ========================================== */
+.top-bar {
+    background-color: #111111;
+    font-size: 13px;
+    border-bottom: 1px solid #222222;
+}
+
+.hot-news-badge {
+    background-color: #ff0000;
+    color: white;
+    padding: 3px 8px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.main-header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+.search-box-group .form-control {
+    background-color: #333333;
+    border: none;
+    color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-box-group .form-control::placeholder {
+    color: #888888;
+}
+
+.search-box-group .btn {
+    background-color: #333333;
+    border: none;
+    color: #cccccc;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-box-group .btn:hover {
+    background-color: #444444;
+    color: white;
+}
+
+.cart-box {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-icon-wrapper {
+    position: relative;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Định dạng lưới sản phẩm tinh chỉnh */
+.object-fit-contain {
+    object-fit: contain;
+}
